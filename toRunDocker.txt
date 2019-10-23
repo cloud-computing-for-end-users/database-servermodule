@@ -1,0 +1,5 @@
+# build command
+docker build -t database-servermodule .
+
+# run database-servermodule
+docker run -p 11433:1433 database-servermodule scp:5542 rcp:5522 rrp:5523 isLocal:false rip:172.17.0.2

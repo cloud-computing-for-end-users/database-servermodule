@@ -7,6 +7,7 @@ using custom_message_based_implementation.encoding;
 using custom_message_based_implementation.model;
 using message_based_communication.model;
 using NLog;
+using File = System.IO.File;
 
 namespace database_servermodule
 {

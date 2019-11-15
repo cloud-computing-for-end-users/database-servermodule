@@ -1,10 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace database_servermodule.Models
 {
-    public partial class CCFEU_DBContext : DbContext
+    public class CCFEU_DBContext : DbContext
     {
         public CCFEU_DBContext()
         {

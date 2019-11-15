@@ -59,7 +59,7 @@ namespace database_servermodule
                 var self_conn_info = new ConnectionInformation()
                 {
                     IP = new IP() { TheIP = null }, // is set after the reading of the system args because isLocalhost might change
-                    Port = new Port() { ThePort = 5542 } // todo port stuff
+                    Port = new Port() { ThePort = 5582 } // todo port stuff
                 };
 
 
@@ -111,6 +111,7 @@ namespace database_servermodule
                         }
                     }
                 }
+                Console.WriteLine("Using Localhost:" + IsLocalhost);
 
                 if (null == self_conn_info.IP.TheIP)
                 {
